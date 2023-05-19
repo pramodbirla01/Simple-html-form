@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Pramod birla|MCA|Sec B|Roll No.53|</title></head>
+    <body>
+        <h1>Travel reservation form</h1>
+        <h4>* denotes mandotory</h4>
+        <form>
+            <label for="fname">Full name*:</label><br>
+            <input type="text" placeholder="FirstName LastName"><br>
+            <label for="email">Email address*:</label><br>
+            <input type="email" name="email" placeholder="EMAIL_ADDRESS"><br>
+            <label for="list">Select Tour Package*:</label><br>
+            <input list="cities" name="cities">
+            <datalist id="cities">
+                <option value="Goa">
+                <option value="Indore">
+                <option value="Leh">
+               <option value="Manali">
+            </datalist><br>
+            <label for="date">Arrival date*:</label><br>
+            <input type="date" placeholder="m/d/y"><br>
+            <label for="quantity">Number of persons*:</label><br>
+            <input type="number" min="1" max="50" placeholder="unknown"><br>
+            <label>What would you want to avail?*</label><br>
+            <label for="checkbox">Boarding</label>
+            <input type="checkbox"><br>
+            <label for="checkbox">Fooding</label>
+            <input type="checkbox"><br>
+            <label for="checkbox">Sight seeing</label>
+            <input type="checkbox"><br>
+            <label>Discount Coupon code:</label><br>
+            <input type="text" placeholder="UNKNOWN_TYPE"><br>
+            <label>Terms and conditions*</label><br>
+            <input type="radio" name="agreement">
+            <label>I agree</label>
+            <input type="radio" name="agreement">
+            <label>I disagree</label><br>
+            <input type="submit" name="complete reservation">
+        </form>
+    </body>
+</html>
